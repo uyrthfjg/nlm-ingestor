@@ -6,7 +6,7 @@ from nltk import load
 from nltk import PunktSentenceTokenizer
 
 
-nltk_abbs = load("tokenizers/punkt/{}.pickle".format("english"))._params.abbrev_types
+nltk_abbs = load("tokenizers/punkt/{}.pickle".format("swedish"))._params.abbrev_types
 
 
 class NpEncoder(json.JSONEncoder):
